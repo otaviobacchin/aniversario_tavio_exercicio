@@ -1,0 +1,29 @@
+@use 'hero';
+@use '_separador';
+@use '_separador2';
+@use '_section-img';
+@use '_section-img2';
+@use '_options';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Bebas Neue, sans-serif;
+    color: #fff;
+    list-style: none;
+}
+
+.container {
+    max-width: 1260px;
+    width: 100%;
+    margin: 0 auto;
+
+    @media (max-width: 640px) {
+        max-width: 80%;
+    }
+
+    @media (max-width: 1024px) {
+        max-width: 90%;
+    }
+}
