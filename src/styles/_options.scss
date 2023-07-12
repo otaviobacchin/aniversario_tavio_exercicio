@@ -42,4 +42,72 @@
             font-weight: 100;
         }
     }
+
+    @media (max-width: 1024px) {
+
+        &__infos {
+            display: block;
+
+            &__img {
+                margin-top: 100px;
+                padding: 10px;
+                display: flex;
+                justify-content: center;
+                
+                img {
+                    padding: 5px;
+                    max-width: 70%;
+                }
+            }
+    
+            &__title {
+                text-align: center;
+                color: #000;
+                font-size: 50px;
+            }
+    
+            &__text {
+                padding-left: 20px;
+                padding-right: 20px;
+                width: 100%;
+                font-size: 30px;
+                margin-bottom: 150px;
+            }
+        }
+    }
+
+    @media (max-width: 640px) {
+
+        &__infos {
+            display: block;
+
+            &__img {
+                padding: 10px;
+                display: flex;
+                justify-content: center;
+                
+                img {
+                    padding: 5px;
+                    max-width: 75%;
+                }
+            }
+    
+            &__title {
+                margin-top: 24px;
+                text-align: center;
+                color: #000;
+                font-size: 38px;
+                max-width: 90%;
+                margin: 0 auto;
+            }
+    
+            &__text {
+                font-size: 20px;
+                margin-top: 24px;
+                margin-bottom: 30px;
+                max-width: 80%;
+                margin: 16px auto;
+            }
+        }
+    }
 }
